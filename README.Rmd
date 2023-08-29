@@ -44,14 +44,26 @@ revenue |>
     title = "Revenue by Financial Year",
     subtitle = "X-axis labels are nicely formatted by default"
   )
+
+revenue
 ```
+
+## Installation
+acadyr is not yet on CRAN but you can install it from GitHub using pak:
+```{r}
+#| eval: false
+
+# install.packages("pak")
+pak::pak("wurli/acadyr")
+```
+
 
 ## Motivation?
 
 Non-calendar year types can cause headaches in everyday analysis for
 several reasons:
 
--   They (often) don't begin on January 1st, meaning they don't
+-   They (usually) don't begin on January 1st, meaning they don't
     integrate easily with other date classes
 
 -   Formatting for display is a pain

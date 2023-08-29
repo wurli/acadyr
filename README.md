@@ -36,13 +36,39 @@ revenue |>
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
+``` r
+
+revenue
+#> # A tibble: 9 × 4
+#>   date       financial_year academic_year revenue
+#>   <date>               <fy>          <ay>   <dbl>
+#> 1 2020-01-01        2019-20       2019/20  10953.
+#> 2 2020-04-01        2020-21       2019/20   9387.
+#> 3 2020-07-01        2020-21       2019/20   9570.
+#> 4 2020-10-01        2020-21       2020/21  10345.
+#> 5 2021-01-01        2020-21       2020/21  11318.
+#> 6 2021-04-01        2021-22       2020/21   9885.
+#> 7 2021-07-01        2021-22       2020/21  10571.
+#> 8 2021-10-01        2021-22       2021/22  10620.
+#> 9 2022-01-01        2021-22       2021/22  10378.
+```
+
+## Installation
+
+acadyr is not yet on CRAN but you can install it from GitHub using pak:
+
+``` r
+# install.packages("pak")
+pak::pak("wurli/acadyr")
+```
+
 ## Motivation?
 
 Non-calendar year types can cause headaches in everyday analysis for
 several reasons:
 
-- They (often) don’t begin on January 1st, meaning they don’t integrate
-  easily with other date classes
+- They (usually) don’t begin on January 1st, meaning they don’t
+  integrate easily with other date classes
 
 - Formatting for display is a pain
 
