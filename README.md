@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-acadyr provides utility functions for creating and working with
+{acadyr} provides utility functions for creating and working with
 financial and academic years in R:
 
 ``` r
@@ -25,18 +25,18 @@ revenue
 #> # A tibble: 9 × 4
 #>   date       financial_year academic_year revenue
 #>   <date>               <fy>          <ay>   <dbl>
-#> 1 2020-01-01        2019-20       2019/20   9407.
-#> 2 2020-04-01        2020-21       2019/20  10380.
-#> 3 2020-07-01        2020-21       2019/20   8663.
-#> 4 2020-10-01        2020-21       2020/21  10345.
-#> 5 2021-01-01        2020-21       2020/21   9064.
-#> 6 2021-04-01        2021-22       2020/21   8825.
-#> 7 2021-07-01        2021-22       2020/21   7950.
-#> 8 2021-10-01        2021-22       2021/22  10867.
-#> 9 2022-01-01        2021-22       2021/22   9878.
+#> 1 2020-01-01        2019-20       2019/20   8961.
+#> 2 2020-04-01        2020-21       2019/20   8597.
+#> 3 2020-07-01        2020-21       2019/20   9303.
+#> 4 2020-10-01        2020-21       2020/21   9558.
+#> 5 2021-01-01        2020-21       2020/21  10344.
+#> 6 2021-04-01        2021-22       2020/21   9674.
+#> 7 2021-07-01        2021-22       2020/21  10224.
+#> 8 2021-10-01        2021-22       2021/22  11515.
+#> 9 2022-01-01        2021-22       2021/22  10294.
 ```
 
-These data types also play nicely with ggplot2:
+These data types also play nicely with {ggplot2}:
 
 ``` r
 revenue |> 
@@ -77,4 +77,4 @@ several reasons:
 ## Acknowledgements
 
 - This package is powered by {vctrs}, and its creation was largely
-  informed by the (excellent) accompanying documentation
+  informed by the excellent accompanying documentation

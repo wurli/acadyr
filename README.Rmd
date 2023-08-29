@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-acadyr provides utility functions for creating and working with financial and
+{acadyr} provides utility functions for creating and working with financial and
 academic years in R:
 
 ```{r}
@@ -37,7 +37,7 @@ revenue <- tibble(
 revenue
 ```
 
-These data types also play nicely with ggplot2:
+These data types also play nicely with {ggplot2}:
 ```{r}
 revenue |> 
   ggplot(aes(financial_year, revenue)) +
@@ -75,4 +75,4 @@ several reasons:
 ## Acknowledgements
 
 -   This package is powered by {vctrs}, and its creation was largely
-    informed by the (excellent) accompanying documentation
+    informed by the excellent accompanying documentation
