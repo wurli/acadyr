@@ -33,6 +33,8 @@ revenue <- tibble(
   academic_year = academic_year(date),
   revenue = rnorm(9, 10000, 1000)
 )
+
+revenue
 ```
 
 These data types also play nicely with ggplot2:
@@ -44,8 +46,6 @@ revenue |>
     title = "Revenue by Financial Year",
     subtitle = "X-axis labels are nicely formatted by default"
   )
-
-revenue
 ```
 
 ## Installation
