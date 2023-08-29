@@ -1,0 +1,19 @@
+Package: acadyr
+Title: Convenience Functions for Working With Non-Calendar Years in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jacob", "Scott", , "jscott2718@gmail.com", role = c("aut", "cre"))
+Description: Provides S3 classes for working with academic and financial year
+    data types.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cli,
+    rlang,
+    vctrs
+Suggests: 
+    ggplot2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
