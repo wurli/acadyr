@@ -49,7 +49,7 @@ revenue |>
 ```
 
 ## Installation
-acadyr is not yet on CRAN but you can install it from GitHub using pak:
+acadyr is not yet on CRAN but you can install it from GitHub using {pak}:
 ```{r}
 #| eval: false
 
