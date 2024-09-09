@@ -1,7 +1,6 @@
 Package: acadyr
-URL: https://wurli.github.io/acadyr/
 Title: Convenience Functions for Working With Non-Calendar Years in R
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Jacob", "Scott", , "jscott2718@gmail.com", role = c("aut", "cre"))
 Description: Provides S3 classes for working with academic and financial year
@@ -18,4 +17,4 @@ Suggests:
     ggplot2,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://wurli.github.io/acadyr/
+URL: https://wurli.github.io/acadyr/, https://wurli.github.io/acadyr/
