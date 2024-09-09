@@ -1,0 +1,8 @@
+pandoc: 3.1.11
+pkgdown: 2.1.0
+pkgdown_sha: ~
+articles: {}
+last_built: 2024-09-09T18:41Z
+urls:
+  reference: https://wurli.github.io/acadyr/reference
+  article: https://wurli.github.io/acadyr/articles
