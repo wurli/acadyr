@@ -1,4 +1,5 @@
 Package: acadyr
+URL: https://wurli.github.io/acadyr/
 Title: Convenience Functions for Working With Non-Calendar Years in R
 Version: 0.0.0.9000
 Authors@R: 
@@ -17,3 +18,4 @@ Suggests:
     ggplot2,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://wurli.github.io/acadyr/

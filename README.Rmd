@@ -14,11 +14,8 @@ knitr::opts_chunk$set(
 ```
 
 # acadyr
-
 <!-- badges: start -->
-
 <!-- badges: end -->
-
 {acadyr} provides utility functions for creating and working with financial and
 academic years in R:
 
